@@ -16,36 +16,84 @@
 <main>
 
     <div class="boxes">
-        <section class="box1">
+        <section class="box">
           <header>Flexbow Row</header>
           <p>Use these three properties to create a Flexbox row layout.</p>
-          <p>.row { <br>
-            display: flex; <br>
-            flex-direction: row; <br>
-            flex-wrap: warp; <br>
-            }
-          </p>
+          <pre><code>
+          .row { 
+            display: flex; 
+            flex-direction: row;
+            flex-wrap: warp; 
+          }
+          </code></pre>
         </section>
-        <section class="box2">
+        <section class="box">
             <header>Flexbox Column</header>
-            <p>Use this to create a Flexbox column layout</p>
-            <p>.column { <br>
-                 display: flex; <br>
-                 flex-direction: column <br>
-                }
-            </p>
+            <p>Use this to create a Flexbox column layout.</p>
+            <pre><code>
+            .column {
+              display: flex;
+              flex-direction: column
+            }
+            </code></pre>
         </section>
-        <section class="box3">
+        <section class="box">
             <header>CSS Grid Layout</header>
             <p>Build a 12-column layout using CSS Grid</p>
-            <p>.grid { <br>
-                display: grid; <br>
-                width: 100% <br>
-                grid-template-columns: <br>
-            repeat(12, 1fr); <br>
+            <pre><code>
+            .grid { 
+                display: grid; 
+                width: 100% 
+                grid-template-columns: 
+            repeat(12, 1fr); 
             }
-            </p>
+            </code></pre>
         </section>
-
+        <section class="box">
+            <header>Linear Gradients</header>
+            <p>This will create a backgorund linear gradient from top to bottom.</p>
+            <pre><code>
+            .linear-gradient-background { 
+              background-image: linear- 
+            gradient( 
+                rgba(232, 102, 236, 0.3) 0%, 
+                rgba(232, 102, 236, 0.6) 100% 
+              ); 
+            }</code></pre>
+        </section>
+        <section class="box">
+            <header>Box Transition Glow</header>
+            <p>Use transition and box shadows to glow on hover.</p>
+            <pre><code>
+            .code-card .card-header { <br>
+              border-radius: 8px; <br>
+              transition: all 0.5s ease-in-<br>
+            out; <br>
+            } <br>
+                 
+            .code-card:hover, <br>
+            .code-card:hover .card-header { <br>
+              box-shadow:inset 0px 0px 8px <br>
+            rgba(232, 102, 236, 1) 0 0 15px <br>
+            rgba(232, 102, 236, 1);
+            }
+         </code></pre>
+        </section>
+        <section class="box">
+            <header>Overlay Card with Title</header>
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <pre><code>
+            .card-header {
+                position: relative;
+                margin-top: -20px;
+            }
+            </code></pre>
+        </section>
     </div>
 </main>
+
+<footer>
+    <h3>
+        Made with ❤️ and CSS
+    </h3>
+</footer>
