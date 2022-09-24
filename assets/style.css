@@ -1,13 +1,15 @@
 :root {
 background-color: #272741;
-
- 
 }
+
+
 
 body {
   box-sizing: border-box;
   font-family:'Courier New', Courier, monospace;
+
 }
+
 
 
 header h1 {
@@ -18,8 +20,13 @@ header h1 {
   color:#eb11eb; 
   margin: 10px; 
 
- 
 }
+
+header p {
+  color: aliceblue;
+
+}
+
 
 
 .boxes {
@@ -30,8 +37,9 @@ header h1 {
   box-sizing:border-box;
   background: fixed;
   background-color: #272741;
-  
+
 }
+
 
 
 .box {
@@ -47,25 +55,8 @@ header h1 {
 
 }
 
-.box header p:hover {
-  font-size: 15px;
-  color:rgb(152, 222, 229);
-  
-}
-
-.box header:hover{
-  font-size: 20px;
-  color: rgb(230, 18, 237);
-
-}
 
 
-header p {
-  color: aliceblue;
-
-
-}
-  
 .box header{
   color: var(--header);
   font-family: sans-serif;
@@ -76,15 +67,26 @@ header p {
   border-color: white;
   border-width: 1px;
   width: 90%;
-  background-color: #272741;
- 
+  background-color: #272741
+
 }
 
+.box header:hover{
+  font-size: 20px;
+  color: rgb(230, 18, 237);
+
+}
+
+.box header p:hover {
+  font-size: 15px;
+  color:rgb(152, 222, 229);
+  
+}
 
 
 
 footer{
+ text-align: center;
 
-  text-align: center;
-  
 }
+
